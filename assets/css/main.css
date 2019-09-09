@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+
+.dropdown-menu {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.dropdown-menu__root-list {
+  position: relative;
+}
+
+.dropdown-menu__list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.dropdown-menu__root-item {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-menu__root-item:hover {
+  cursor: pointer;
+}
+
+.dropdown-menu__item {
+  width: 150px;
+  height: 20px;
+  background-color: #eeeeee;
+  border: 1px solid #bbbbbb;
+  text-align: center;
+}
+
+.dropdown-menu__item--hover:hover {
+  background-color: #80b6e0;
+  cursor: pointer;
+}
+
+.dropdown-menu__list-child {
+  display: none;
+  position: absolute;
+  top: 21px;
+  left: -1px;
+}
+
+.dropdown-menu__item-1:hover .dropdown-menu__list-child-1 {
+  display: block;
+}
+
+.dropdown-menu__item-2:hover .dropdown-menu__list-child-2 {
+  display: block;
+}
+
+.dropdown-menu__item-3:hover .dropdown-menu__list-child-3 {
+  display: block;
+}
+
+.dropdown-menu__item-child-1_1:hover .dropdown-menu__list-child-1_1 {
+  display: block;
+  top: 0px;
+  left: 152px;
+}
+
+.dropdown-menu__item-child-1_2:hover .dropdown-menu__list-child-1_2 {
+  display: block;
+  top: 22px;
+  left: 152px;
+}
+
+.dropdown-menu__item-child-1_3:hover .dropdown-menu__list-child-1_3 {
+  display: block;
+  top: 44px;
+  left: 152px;
+}
+
+.dropdown-menu__item-child-2_1:hover .dropdown-menu__list-child-2_1 {
+  display: block;
+  top: 0px;
+  left: 152px;
+}
+
+.dropdown-menu__item-child-2_2:hover .dropdown-menu__list-child-2_2 {
+  display: block;
+  top: 22px;
+  left: 152px;
+}
+
+.dropdown-menu__item-child-2_3:hover .dropdown-menu__list-child-2_3 {
+  display: block;
+  top: 44px;
+  left: 152px;
+}
+
+.dropdown-menu__item-child-3_1:hover .dropdown-menu__list-child-3_1 {
+  display: block;
+  top: 0px;
+  left: 152px;
+}
+
+.dropdown-menu__item-child-3_2:hover .dropdown-menu__list-child-3_2 {
+  display: block;
+  top: 22px;
+  left: 152px;
+}
+
+.dropdown-menu__item-child-3_3:hover .dropdown-menu__list-child-3_3 {
+  display: block;
+  top: 44px;
+  left: 152px;
+}
+
+.dropdow-menu__link {
+  text-decoration: none;
+  color: #000000;
+}
